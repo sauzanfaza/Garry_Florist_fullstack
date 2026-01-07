@@ -3,6 +3,6 @@ import { createMessage } from "../controllers/messageController.js"
 
 const router = express.Router()
 
-router.post("/", createMessage)
+router.post("/contact", createMessage)
 
 export default router
